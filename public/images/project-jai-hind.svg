@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="bgGradJH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05080B" />
+      <stop offset="50%" stop-color="#0B1015" />
+      <stop offset="100%" stop-color="#0E161D" />
+    </linearGradient>
+    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9933" />
+      <stop offset="100%" stop-color="#FFB366" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#138808" />
+      <stop offset="100%" stop-color="#28A745" />
+    </linearGradient>
+    <pattern id="jhGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.04" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="700" fill="url(#bgGradJH)" />
+  <rect width="1200" height="700" fill="url(#jhGrid)" />
+
+  <!-- Outer Architectural Framing -->
+  <rect x="30" y="30" width="1140" height="640" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.1" />
+  <rect x="40" y="40" width="1120" height="620" fill="none" stroke="#D4C5A0" stroke-width="1" stroke-opacity="0.2" />
+
+  <!-- Brand Accent Tricolor Bar (Saffron, White, Indian Green) -->
+  <g transform="translate(60, 55)">
+    <rect x="0" y="0" width="80" height="3" fill="#FF9933" />
+    <rect x="80" y="0" width="80" height="3" fill="#FFFFFF" fill-opacity="0.85" />
+    <rect x="160" y="0" width="80" height="3" fill="#138808" />
+  </g>
+
+  <!-- Top Header Bar -->
+  <g transform="translate(60, 85)">
+    <rect x="0" y="0" width="130" height="26" rx="2" fill="#D4C5A0" fill-opacity="0.12" stroke="#D4C5A0" stroke-opacity="0.35" />
+    <text x="65" y="17" font-family="monospace" font-size="11" font-weight="700" fill="#D4C5A0" text-anchor="middle" letter-spacing="2">PROJECT 04</text>
+    
+    <rect x="145" y="0" width="160" height="26" rx="2" fill="#05080B" stroke="#F59E0B" stroke-opacity="0.4" />
+    <circle cx="160" cy="13" r="3.5" fill="#F59E0B" />
+    <text x="175" y="17" font-family="monospace" font-size="10" font-weight="700" fill="#FBBF24" letter-spacing="1.5">● ACTIVE BUILD</text>
+
+    <text x="1080" y="18" font-family="monospace" font-size="11" fill="#8A959E" text-anchor="end" letter-spacing="2">COIMBATORE, TAMIL NADU, INDIA</text>
+  </g>
+
+  <!-- Central Showcase Area -->
+  <g transform="translate(80, 165)">
+    <!-- Big Title -->
+    <text x="0" y="90" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="76" font-weight="900" fill="#EDEDE8" letter-spacing="4">JAI HIND SPORTS</text>
+    <text x="0" y="145" font-family="monospace" font-size="14" font-weight="600" fill="#D4C5A0" letter-spacing="3">PREMIUM SPORTS SHOWROOM &amp; DIGITAL SPORTS EXPERIENCE</text>
+    
+    <text x="0" y="195" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" fill="#EDEDE8" fill-opacity="0.9">
+      An ongoing digital showroom experience bringing a physical sports establishment into a modern
+    </text>
+    <text x="0" y="225" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" fill="#EDEDE8" fill-opacity="0.9">
+      online environment with 27 curated products, 5 showroom zones, and customer enquiry workflows.
+    </text>
+
+    <!-- Feature Pillars -->
+    <g transform="translate(0, 275)">
+      <!-- Box 1: Product Catalogue & Discovery -->
+      <g transform="translate(0, 0)">
+        <rect width="320" height="135" rx="3" fill="#0A0F14" stroke="#D4C5A0" stroke-opacity="0.3" stroke-width="1" />
+        <rect x="15" y="15" width="28" height="28" rx="2" fill="#D4C5A0" fill-opacity="0.15" />
+        <text x="29" y="34" font-family="monospace" font-size="14" fill="#D4C5A0" text-anchor="middle">🏏</text>
+        <text x="55" y="32" font-family="monospace" font-size="12" font-weight="700" fill="#EDEDE8" letter-spacing="1">CURATED CATALOGUE</text>
+        <text x="15" y="65" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#8A959E">27 products across Cricket, Badminton,</text>
+        <text x="15" y="85" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#8A959E">Football, Fitness, Running &amp; Gym equipment</text>
+        <text x="15" y="115" font-family="monospace" font-size="10" font-weight="600" fill="#10B981">● 10+ BRANDS: YONEX, SG, SS, COSCO</text>
+      </g>
+
+      <!-- Box 2: Interactive Showroom Gallery -->
+      <g transform="translate(345, 0)">
+        <rect width="320" height="135" rx="3" fill="#0A0F14" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1" />
+        <rect x="15" y="15" width="28" height="28" rx="2" fill="#D4C5A0" fill-opacity="0.15" />
+        <text x="29" y="34" font-family="monospace" font-size="14" fill="#D4C5A0" text-anchor="middle">🏟️</text>
+        <text x="55" y="32" font-family="monospace" font-size="12" font-weight="700" fill="#EDEDE8" letter-spacing="1">5 SHOWROOM ZONES</text>
+        <text x="15" y="65" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#8A959E">Cricket, Badminton, Football, Fitness &amp;</text>
+        <text x="15" y="85" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#8A959E">Accessories Zones with fullscreen viewing</text>
+        <text x="15" y="115" font-family="monospace" font-size="10" font-weight="600" fill="#F59E0B">◐ CLIENT-SIDE ENQUIRY PERSISTENCE</text>
+      </g>
+
+      <!-- Box 3: Actual Tech Stack -->
+      <g transform="translate(690, 0)">
+        <rect width="350" height="135" rx="3" fill="#0A0F14" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1" />
+        <rect x="15" y="15" width="28" height="28" rx="2" fill="#D4C5A0" fill-opacity="0.15" />
+        <text x="29" y="34" font-family="monospace" font-size="14" fill="#D4C5A0" text-anchor="middle">⚡</text>
+        <text x="55" y="32" font-family="monospace" font-size="12" font-weight="700" fill="#EDEDE8" letter-spacing="1">CURRENT STACK</text>
+        <text x="15" y="65" font-family="monospace" font-size="11" fill="#D4C5A0">React 19 · TypeScript · Vite · Router</text>
+        <text x="15" y="85" font-family="monospace" font-size="11" fill="#8A959E">Tailwind CSS · Motion · SEO &amp; JSON-LD</text>
+        <text x="15" y="115" font-family="monospace" font-size="10" font-weight="600" fill="#38BDF8">↗ LIVE PREVIEW: jai-hind-sports-zeta.vercel.app</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Visual Watermark -->
+  <g transform="translate(80, 620)">
+    <text x="0" y="0" font-family="monospace" font-size="10" fill="#8A959E" letter-spacing="2">PROJECT VISUAL ASSET · ACTIVE BUILD · REFINING DIGITAL SHOWROOM</text>
+    <text x="1040" y="0" font-family="monospace" font-size="10" fill="#D4C5A0" text-anchor="end" letter-spacing="2">JEETHU G PORTFOLIO</text>
+  </g>
+</svg>

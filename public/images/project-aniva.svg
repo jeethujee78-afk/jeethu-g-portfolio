@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05080B" />
+      <stop offset="50%" stop-color="#0A0F14" />
+      <stop offset="100%" stop-color="#0F171D" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4C5A0" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#D4C5A0" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4C5A0" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#D4C5A0" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="archGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.04" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="700" fill="url(#bgGrad)" />
+  <rect width="1200" height="700" fill="url(#archGrid)" />
+  
+  <!-- Subtle Ambient Glow -->
+  <circle cx="950" cy="250" r="300" fill="url(#accentGlow)" />
+  <circle cx="200" cy="550" r="250" fill="url(#accentGlow)" />
+
+  <!-- Outer Architectural Framing -->
+  <rect x="30" y="30" width="1140" height="640" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.1" />
+  <rect x="40" y="40" width="1120" height="620" fill="none" stroke="#D4C5A0" stroke-width="1" stroke-opacity="0.2" />
+
+  <!-- Top Header Bar -->
+  <g transform="translate(60, 80)">
+    <rect x="0" y="0" width="130" height="26" rx="2" fill="#D4C5A0" fill-opacity="0.12" stroke="#D4C5A0" stroke-opacity="0.35" />
+    <text x="65" y="17" font-family="monospace" font-size="11" font-weight="700" fill="#D4C5A0" text-anchor="middle" letter-spacing="2">PROJECT 03</text>
+    
+    <rect x="145" y="0" width="160" height="26" rx="2" fill="#05080B" stroke="#F59E0B" stroke-opacity="0.4" />
+    <circle cx="160" cy="13" r="3.5" fill="#F59E0B" />
+    <text x="175" y="17" font-family="monospace" font-size="10" font-weight="700" fill="#FBBF24" letter-spacing="1.5">● ACTIVE BUILD</text>
+
+    <text x="1080" y="18" font-family="monospace" font-size="11" fill="#8A959E" text-anchor="end" letter-spacing="2">COMMERCE ARCHITECTURE LABS</text>
+  </g>
+
+  <!-- Central Showcase Area -->
+  <g transform="translate(80, 160)">
+    <!-- Big Title -->
+    <text x="0" y="90" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="88" font-weight="900" fill="url(#goldGrad)" letter-spacing="6">ANIVA</text>
+    <text x="0" y="145" font-family="monospace" font-size="14" font-weight="600" fill="#D4C5A0" letter-spacing="4">FASHION COMMERCE · CUSTOM APPAREL · PRE-OWNED MARKETPLACE</text>
+    
+    <text x="0" y="195" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" fill="#EDEDE8" fill-opacity="0.9" width="600">
+      A modern commerce platform exploring fashion discovery, interactive custom apparel design,
+    </text>
+    <text x="0" y="225" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" fill="#EDEDE8" fill-opacity="0.9">
+      condition-graded pre-owned marketplace workflows, and intelligent product experiences.
+    </text>
+
+    <!-- Feature Pillars -->
+    <g transform="translate(0, 275)">
+      <!-- Box 1: Custom Print Studio -->
+      <g transform="translate(0, 0)">
+        <rect width="320" height="135" rx="3" fill="#0A0F14" stroke="#D4C5A0" stroke-opacity="0.3" stroke-width="1" />
+        <rect x="15" y="15" width="28" height="28" rx="2" fill="#D4C5A0" fill-opacity="0.15" />
+        <text x="29" y="34" font-family="monospace" font-size="14" fill="#D4C5A0" text-anchor="middle">🎨</text>
+        <text x="55" y="32" font-family="monospace" font-size="12" font-weight="700" fill="#EDEDE8" letter-spacing="1">CUSTOM PRINT STUDIO</text>
+        <text x="15" y="65" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#8A959E">Front/back garment config, live text, font</text>
+        <text x="15" y="85" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#8A959E">sizing, artwork emblem placement &amp; preview</text>
+        <text x="15" y="115" font-family="monospace" font-size="10" font-weight="600" fill="#10B981">● INTERACTIVE STUDIO IMPLEMENTED</text>
+      </g>
+
+      <!-- Box 2: Pre-Owned Marketplace -->
+      <g transform="translate(345, 0)">
+        <rect width="320" height="135" rx="3" fill="#0A0F14" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1" />
+        <rect x="15" y="15" width="28" height="28" rx="2" fill="#D4C5A0" fill-opacity="0.15" />
+        <text x="29" y="34" font-family="monospace" font-size="14" fill="#D4C5A0" text-anchor="middle">🏷️</text>
+        <text x="55" y="32" font-family="monospace" font-size="12" font-weight="700" fill="#EDEDE8" letter-spacing="1">PRE-OWNED MARKETPLACE</text>
+        <text x="15" y="65" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#8A959E">Condition grading (S: Like New, A: Excellent,</text>
+        <text x="15" y="85" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" fill="#8A959E">B: Good, C: Fair), seller submissions &amp; resale</text>
+        <text x="15" y="115" font-family="monospace" font-size="10" font-weight="600" fill="#F59E0B">◐ WORKFLOW IN ACTIVE DEVELOPMENT</text>
+      </g>
+
+      <!-- Box 3: Commerce Tech Stack -->
+      <g transform="translate(690, 0)">
+        <rect width="350" height="135" rx="3" fill="#0A0F14" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1" />
+        <rect x="15" y="15" width="28" height="28" rx="2" fill="#D4C5A0" fill-opacity="0.15" />
+        <text x="29" y="34" font-family="monospace" font-size="14" fill="#D4C5A0" text-anchor="middle">⚡</text>
+        <text x="55" y="32" font-family="monospace" font-size="12" font-weight="700" fill="#EDEDE8" letter-spacing="1">CURRENT TECHNOLOGY</text>
+        <text x="15" y="65" font-family="monospace" font-size="11" fill="#D4C5A0">React · TypeScript · Vite · Tailwind</text>
+        <text x="15" y="85" font-family="monospace" font-size="11" fill="#8A959E">Lucide React · HTML5 Canvas Engine</text>
+        <text x="15" y="115" font-family="monospace" font-size="10" font-weight="600" fill="#38BDF8">↗ LIVE PREVIEW: aniva-ecommerce.vercel.app</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Visual Watermark -->
+  <g transform="translate(80, 620)">
+    <text x="0" y="0" font-family="monospace" font-size="10" fill="#8A959E" letter-spacing="2">PROJECT VISUAL ASSET · ACTIVE BUILD · CONTINUOUSLY EVOLVING</text>
+    <text x="1040" y="0" font-family="monospace" font-size="10" fill="#D4C5A0" text-anchor="end" letter-spacing="2">JEETHU G PORTFOLIO</text>
+  </g>
+</svg>
